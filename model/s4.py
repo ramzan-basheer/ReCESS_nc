@@ -1822,7 +1822,6 @@ class S4Model(nn.Module):
 
         self.replay_buffer = ReplayBuffer(buffer)
 
-        # Linear encoder (d_input = 1 for grayscale and 3 for RGB)
         if add_encoder:
             self.encoder = nn.Linear(d_input, d_model)
 

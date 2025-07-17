@@ -1,5 +1,3 @@
-"""Temporal GNN with S4 but without GSL. aka GraphS4mer w/o GSL."""
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -17,7 +15,6 @@ import torch_geometric
 import scipy
 from model.graph_learner import *
 from model.s4 import S4Model
-# from model. mamba import MambaBlock, ModelArgs
 from model.decoders import SequenceDecoder
 from model.egcl import E_GCL
 
